@@ -4,7 +4,7 @@
   "description": "Nexter webpage",
   "main": "index.js",
   "scripts": {
-    "watch:sass": "node-sass sass/main.scss css/style.css ",
+    "watch:sass": "node-sass sass/main.scss css/style.css",
     "devserver": "live-server",
     "start": "npm-run-all --parallel devserver watch:sass",
     "compile:sass": "node-sass sass/main.scss css/style.comp.css",
@@ -17,7 +17,7 @@
   "devDependencies": {
     "autoprefixer": "^7.1.4",
     "concat": "^1.0.3",
-    "node-sass": "^5.0.0",
+    "node-sass": "^6.0.0",
     "npm-run-all": "^4.1.1",
     "postcss-cli": "^4.1.1"
   }
